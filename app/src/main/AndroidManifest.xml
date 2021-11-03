@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.farroos.doadandzikir">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoaDanDzikir">
+        <activity
+            android:name=".DzikirPetangActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivty" />
+        <activity
+            android:name=".DzikirPagiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PagiActivity"
+            tools:ignore="LockedOrientationActivty" />
+        <activity
+            android:name=".DetailArtikelActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivty" />
+        <activity
+            android:name=".PagiPetangDzikirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PetangActivity"
+            tools:ignore="LockedOrientationActivty" />
+        <activity
+            android:name=".HarianDzikirDoaActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivty" />
+        <activity
+            android:name=".SetiapSaatDzikirActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivty" />
+        <activity
+            android:name=".QauliyahShalatActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivty" />
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme"
+            tools:ignore="LockedOrientationActivty">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoActionBar" />
+    </application>
+
+</manifest>
