@@ -19,12 +19,12 @@
         android:paddingEnd="16dp"
         android:paddingBottom="16dp"
         android:text="@string/txt_sunnah_qauliyah"
+        android:textColor="@color/blue"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:textColor="@color/blue" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_dizkir_doa_harian"
